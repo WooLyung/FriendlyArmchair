@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <ThingDef ParentName="BuildingBase">
+        <defName>FriendlyArmchair</defName>
+        <label>friendly armchair</label>
+        <description>For some reason, every time I look at this armchair, I get a friendly feeling. Why?</description>
+        <graphicData>
+            <texPath>Things/Building/Furniture/Armchair</texPath>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <drawSize>(3,3)</drawSize>
+            <damageData>
+                <rectN>(0,0,1,0.703125)</rectN>
+                <rectS>(0.09375,0,0.84375,1)</rectS>
+                <rectE>(0,0,0.84375,0.625)</rectE>
+                <rectW>(0.15625,0,0.84375,0.625)</rectW>
+            </damageData>
+            <shadowData>
+                <volume>(0.3, 0.33, 0.3)</volume>
+            </shadowData>
+        </graphicData>
+        <uiIconScale>0.9</uiIconScale>
+        <altitudeLayer>Building</altitudeLayer>
+        <statBases>
+            <MaxHitPoints>120</MaxHitPoints>
+            <Mass>18</Mass>
+            <Flammability>1.0</Flammability>
+            <Beauty>2</Beauty>
+            <Comfort>0.8</Comfort>
+            <WorkToMake>18000</WorkToMake>
+        </statBases>
+        <socialPropernessMatters>true</socialPropernessMatters>
+        <pathCost>30</pathCost>
+        <fillPercent>0.40</fillPercent>
+
+        <recipeMaker>
+            <workSkill>Crafting</workSkill>
+            <skillRequirements>
+                <Crafting>8</Crafting>
+                <Artistic>6</Artistic>
+            </skillRequirements>
+
+            <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+            <unfinishedThingDef>UnfinishedSculpture</unfinishedThingDef>
+            <effectWorking>Sculpt</effectWorking>
+            <soundWorking>Recipe_Sculpt</soundWorking>
+            <recipeUsers>
+                <li>HandTailoringBench</li>
+                <li>ElectricTailoringBench</li>
+            </recipeUsers>
+        </recipeMaker>
+
+        <building>
+            <isSittable>true</isSittable>
+            <destroySound>BuildingDestroyed_Soft_Small</destroySound>
+        </building>
+
+        <comps>
+            <li>
+                <compClass>CompQuality</compClass>
+            </li>
+        </comps>
+
+        <minifiedDef>MinifiedThing</minifiedDef>
+        <thingCategories>
+            <li>BuildingsFurniture</li>
+        </thingCategories>
+
+        <costList>
+            <Corpse_Human>1</Corpse_Human>
+            <Leather_Human>50</Leather_Human>
+        </costList>
+
+        <defaultPlacingRot>South</defaultPlacingRot>
+        <costStuffCount>50</costStuffCount>
+    </ThingDef>
+</Defs>

@@ -1,0 +1,14 @@
+C:\Users\woolyung\Desktop\FriendlyArmchair\Source\Assemblies\FriendlyArmchair.dll
+C:\Users\woolyung\Desktop\FriendlyArmchair\Source\Assemblies\FriendlyArmchair.pdb
+C:\Users\woolyung\Desktop\FriendlyArmchair\Source\FriendlyArmchair\FriendlyArmchair\obj\Debug\FriendlyArmchair.csproj.AssemblyReference.cache
+C:\Users\woolyung\Desktop\FriendlyArmchair\Source\FriendlyArmchair\FriendlyArmchair\obj\Debug\FriendlyArmchair.csproj.CoreCompileInputs.cache
+C:\Users\woolyung\Desktop\FriendlyArmchair\Source\FriendlyArmchair\FriendlyArmchair\obj\Debug\FriendlyArmchair.dll
+C:\Users\woolyung\Desktop\FriendlyArmchair\Source\FriendlyArmchair\FriendlyArmchair\obj\Debug\FriendlyArmchair.pdb
+C:\Users\woolyung\Desktop\FriendlyArmchair\Assemblies\FriendlyArmchair.dll
+C:\Users\woolyung\Desktop\FriendlyArmchair\Assemblies\FriendlyArmchair.pdb
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\FriendlyArmchair\Assemblies\FriendlyArmchair.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\FriendlyArmchair\Assemblies\FriendlyArmchair.pdb
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\FriendlyArmchair\Source\FriendlyArmchair\FriendlyArmchair\obj\Debug\FriendlyArmchair.csproj.AssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\FriendlyArmchair\Source\FriendlyArmchair\FriendlyArmchair\obj\Debug\FriendlyArmchair.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\FriendlyArmchair\Source\FriendlyArmchair\FriendlyArmchair\obj\Debug\FriendlyArmchair.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\FriendlyArmchair\Source\FriendlyArmchair\FriendlyArmchair\obj\Debug\FriendlyArmchair.pdb

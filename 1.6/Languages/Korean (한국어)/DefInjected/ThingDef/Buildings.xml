@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <FriendlyArmchair.label>친근한 팔걸이 의자</FriendlyArmchair.label>
+  <FriendlyArmchair.description>친근함이 느껴지는 팔걸이 의자입니다. 사랑하는 이와 함께할 수 있습니다.</FriendlyArmchair.description>
+  <UnfinishedFriendlyArmchair.label>미완성된 친근한 팔걸이 의자</UnfinishedFriendlyArmchair.label>
+  <UnfinishedFriendlyArmchair.description>약간의 친근함이 느껴지는 미완성된 팔걸이 의자입니다. 완성하면 사랑하는 이와 함께할 수 있습니다.</UnfinishedFriendlyArmchair.description>
+ 
+  <FriendlySmallArmchair.label>친근한 작은 팔걸이 의자</FriendlySmallArmchair.label>
+  <FriendlySmallArmchair.description>친근함이 느껴지는 작은 팔걸이 의자입니다. 사랑하는 이와 함께할 수 있습니다.</FriendlySmallArmchair.description>
+  <UnfinishedFriendlySmallArmchair.label>미완성된 친근한 작은 팔걸이 의자</UnfinishedFriendlySmallArmchair.label>
+  <UnfinishedFriendlySmallArmchair.description>약간의 친근함이 느껴지는 미완성된 작은 팔걸이 의자입니다. 완성하면 사랑하는 이와 함께할 수 있습니다.</UnfinishedFriendlySmallArmchair.description>
+
+  <FriendlyCouch.label>친근한 카우치</FriendlyCouch.label>
+  <FriendlyCouch.description>친근함이 느껴지는 카우치입니다. 사랑하는 이와 함께할 수 있습니다.</FriendlyCouch.description>
+  <UnfinishedFriendlyCouch.label>미완성된 친근한 카우치</UnfinishedFriendlyCouch.label>
+  <UnfinishedFriendlyCouch.description>약간의 친근함이 느껴지는 미완성된 카우치입니다. 완성하면 사랑하는 이와 함께할 수 있습니다.</UnfinishedFriendlyCouch.description>
+</LanguageData>

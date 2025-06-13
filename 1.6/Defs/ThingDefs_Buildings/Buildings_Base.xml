@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <ThingDef ParentName="BuildingBase" Name="FriendlyThing" Abstract="True">
+        <minifiedDef>MinifiedThing</minifiedDef>
+        <rotatable>true</rotatable>
+        <statBases>
+            <TerrorSource MayRequire="Ludeon.RimWorld.Ideology">0</TerrorSource>  
+        </statBases>
+        <building>
+            <haulToContainerDuration>1000</haulToContainerDuration>
+            <isEscapableContainer>false</isEscapableContainer>
+            <fixedStorageSettings>
+                <filter>
+                    <categories>
+                        <li>CorpsesHumanlike</li>
+                    </categories>
+                </filter>
+            </fixedStorageSettings>
+            <defaultStorageSettings>
+                <priority>Important</priority>
+                <filter>
+                    <categories>
+                        <li>CorpsesHumanlike</li>
+                    </categories>
+                    <specialFiltersToDisallow>
+                        <li>AllowCorpsesStranger</li>
+                    </specialFiltersToDisallow>
+                </filter>
+            </defaultStorageSettings>
+            <buildingTags>
+                <li>RitualFocus</li>
+            </buildingTags>
+        </building>
+        <containedPawnsSelectable>true</containedPawnsSelectable>
+        <comps>
+            <li Class="CompProperties_Art">
+                <nameMaker>NamerArtSarcophagusPlate</nameMaker>
+                <descriptionMaker>ArtDescription_SarcophagusPlate</descriptionMaker>
+                <mustBeFullGrave>true</mustBeFullGrave>
+            </li>
+            <li Class="CompProperties_AssignableToPawn">
+                <drawAssignmentOverlay>false</drawAssignmentOverlay>
+                <compClass>CompAssignableToPawn_Grave</compClass>
+            </li>
+            <li>
+                <compClass>CompQuality</compClass>
+            </li>
+            <li>
+                <compClass>CompColorable</compClass>
+            </li>
+        </comps>
+        <ritualFocus>
+            <spectateDistance>1~2</spectateDistance>
+            <allowedSpectateSides>Vertical</allowedSpectateSides>
+            <consumable>true</consumable>
+        </ritualFocus>
+        <inspectorTabs>
+            <li>ITab_Storage</li>
+            <li>ITab_Art</li>
+            <li>ITab_ContentsCasket</li>
+        </inspectorTabs>
+        <altitudeLayer>Building</altitudeLayer>
+        <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    </ThingDef>
+
+    <ThingDef ParentName="FriendlyThing" Name="FriendlyFurniture" Abstract="True">
+        <thingCategories>
+            <li>BuildingsFurniture</li>
+        </thingCategories>
+    </ThingDef>
+</Defs>

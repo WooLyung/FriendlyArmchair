@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <ThingDef ParentName="FriendlyFurniture" Name="FriendlySmallArmchair">
+        <defName>FriendlySmallArmchair</defName>
+        <label>friendly small armchair</label>
+        <description>A small armchair that feels friendly. It can be with a you loved one.</description>
+        <thingClass>FriendlyArmchair.Building_FriendlySmallArmchair</thingClass>
+        <graphicData>
+            <texPath>Things/Building/FriendlySmallArmchair</texPath>
+            <color>(211,194,143)</color>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <drawSize>(3,3)</drawSize>
+            <damageData>
+                <rectN>(0,0,1,0.703125)</rectN>
+                <rectS>(0.09375,0,0.84375,1)</rectS>
+                <rectE>(0,0,0.84375,0.625)</rectE>
+                <rectW>(0.15625,0,0.84375,0.625)</rectW>
+            </damageData>
+            <shadowData>
+                <volume>(0.3, 0.33, 0.3)</volume>
+            </shadowData>
+        </graphicData>
+        <uiIconScale>0.9</uiIconScale>
+        <statBases>
+            <MaxHitPoints>100</MaxHitPoints>
+            <WorkToBuild>8000</WorkToBuild>
+            <Mass>20</Mass>
+            <Flammability>1.0</Flammability>
+            <Beauty>3</Beauty>
+            <Comfort>0.7</Comfort>
+            <TerrorSource>20</TerrorSource>
+        </statBases>
+        <pathCost>30</pathCost>
+        <fillPercent>0.40</fillPercent>
+        <defaultPlacingRot>South</defaultPlacingRot>
+        <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+        <uiOrder>2422</uiOrder>
+        <costList>
+            <Leather_Human>40</Leather_Human>
+        </costList>
+        <building>
+            <isSittable>true</isSittable>
+            <destroySound>BuildingDestroyed_Soft_Small</destroySound>
+        </building>
+    </ThingDef>
+
+    <ThingDef ParentName="FriendlySmallArmchair">
+        <defName>UnfinishedFriendlySmallArmchair</defName>
+        <label>unfinished friendly small armchair</label>
+        <description>An unfinished small armchair that feels a little friendly. Once completed, it can be with a you loved one.</description>
+        <designationCategory>Furniture</designationCategory>
+        <researchPrerequisites>
+            <li>ComplexFurniture</li>
+        </researchPrerequisites>
+        <graphicData>
+            <texPath>Things/Building/UnfinishedFriendlySmallArmchair</texPath>
+        </graphicData>
+        <building>
+            <isSittable>false</isSittable>
+        </building>
+        <statBases>
+            <TerrorSource>0</TerrorSource>
+        </statBases>
+    </ThingDef>
+</Defs>

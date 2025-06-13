@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <ThingDef ParentName="FriendlyFurniture" Name="FriendlyArmchair">
+        <defName>FriendlyArmchair</defName>
+        <label>friendly armchair</label>
+        <description>An armchair that feels friendly. It can be with a you loved one.</description>
+        <thingClass>FriendlyArmchair.Building_FriendlyArmchair</thingClass>
+        <graphicData>
+            <texPath>Things/Building/FriendlyArmchair</texPath>
+            <color>(211,194,143)</color>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <drawSize>(3,3)</drawSize>
+            <damageData>
+                <rectN>(0,0,1,0.703125)</rectN>
+                <rectS>(0.09375,0,0.84375,1)</rectS>
+                <rectE>(0,0,0.84375,0.625)</rectE>
+                <rectW>(0.15625,0,0.84375,0.625)</rectW>
+            </damageData>
+            <shadowData>
+                <volume>(0.3, 0.33, 0.3)</volume>
+            </shadowData>
+        </graphicData>
+        <uiIconScale>0.9</uiIconScale>
+        <statBases>
+            <MaxHitPoints>120</MaxHitPoints>
+            <WorkToBuild>14000</WorkToBuild>
+            <Mass>35</Mass>
+            <Flammability>1.0</Flammability>
+            <Beauty>4</Beauty>
+            <Comfort>0.8</Comfort>
+            <TerrorSource>30</TerrorSource>
+        </statBases>
+        <pathCost>30</pathCost>
+        <fillPercent>0.40</fillPercent>
+        <defaultPlacingRot>South</defaultPlacingRot>
+        <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+        <uiOrder>2421</uiOrder>
+        <costList>
+            <Leather_Human>100</Leather_Human>
+        </costList>
+        <building>
+            <isSittable>true</isSittable>
+            <destroySound>BuildingDestroyed_Soft_Small</destroySound>
+        </building>
+    </ThingDef>
+
+    <ThingDef ParentName="FriendlyArmchair">
+        <defName>UnfinishedFriendlyArmchair</defName>
+        <label>unfinished friendly armchair</label>
+        <description>An unfinished armchair that feels a little friendly. Once completed, it can be with a you loved one.</description>
+        <designationCategory>Furniture</designationCategory>
+        <researchPrerequisites>
+            <li>ComplexFurniture</li>
+        </researchPrerequisites>
+        <graphicData>
+            <texPath>Things/Building/UnfinishedFriendlyArmchair</texPath>
+        </graphicData>
+        <building>
+            <isSittable>false</isSittable>
+        </building>
+        <statBases>
+            <TerrorSource>0</TerrorSource>
+        </statBases>
+    </ThingDef>
+</Defs>

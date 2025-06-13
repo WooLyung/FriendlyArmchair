@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <ThingDef ParentName="FriendlyFurniture" Name="FriendlyCouch">
+        <defName>FriendlyCouch</defName>
+        <label>friendly couch</label>
+        <description>A couch that feels friendly. It can be with a you loved one.</description>
+        <thingClass>FriendlyArmchair.Building_FriendlyCouch</thingClass>
+        <graphicData>
+            <texPath>Things/Building/FriendlyCouch</texPath>
+            <color>(211,194,143)</color>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <drawSize>(3,3)</drawSize>
+            <damageData>
+                <cornerTL>Damage/Corner</cornerTL>
+                <cornerTR>Damage/Corner</cornerTR>
+                <cornerBL>Damage/Corner</cornerBL>
+                <cornerBR>Damage/Corner</cornerBR>
+            </damageData>
+            <shadowData>
+                <volume>(0.3, 0.33, 0.3)</volume>
+            </shadowData>
+        </graphicData>
+        <uiIconScale>0.9</uiIconScale>
+        <statBases>
+            <MaxHitPoints>160</MaxHitPoints>
+            <WorkToBuild>20000</WorkToBuild>
+            <Mass>70</Mass>
+            <Flammability>1.0</Flammability>
+            <Beauty>8</Beauty>
+            <Comfort>0.85</Comfort>
+            <TerrorSource>40</TerrorSource>
+        </statBases>
+        <pathCost>30</pathCost>
+        <fillPercent>0.40</fillPercent>
+        <defaultPlacingRot>South</defaultPlacingRot>
+        <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+        <uiOrder>2423</uiOrder>
+        <costList>
+            <Leather_Human>180</Leather_Human>
+        </costList>
+        <building>
+            <isSittable>true</isSittable>
+            <destroySound>BuildingDestroyed_Soft_Small</destroySound>
+        </building>
+        <size>(2,1)</size>
+    </ThingDef>
+
+    <ThingDef ParentName="FriendlyCouch">
+        <defName>UnfinishedFriendlyCouch</defName>
+        <label>unfinished friendly couch</label>
+        <description>An unfinished couch that feels a little friendly. Once completed, it can be with a you loved one.</description>
+        <designationCategory>Furniture</designationCategory>
+        <researchPrerequisites>
+            <li>ComplexFurniture</li>
+        </researchPrerequisites>
+        <graphicData>
+            <texPath>Things/Building/UnfinishedFriendlyCouch</texPath>
+        </graphicData>
+        <building>
+            <isSittable>false</isSittable>
+        </building>
+        <statBases>
+            <TerrorSource>0</TerrorSource>
+        </statBases>
+    </ThingDef>
+</Defs>
